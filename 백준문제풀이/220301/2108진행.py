@@ -9,9 +9,13 @@ print(x[n//2])
 count = 1
 manycount = 1
 tem = x[0]
-manys = x[1]
+if n == 0:
+    startidx = 0
+else:
+    startidx = 1
+manys = x[startidx]
 swichs = True
-for i in x[1:]:
+for i in x[startidx:]:
     if (tem == i):
         count += 1
         if (count == manycount) and (swichs):
