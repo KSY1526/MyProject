@@ -15,19 +15,3 @@ for num in range(1000001):
 
 print(ans)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
